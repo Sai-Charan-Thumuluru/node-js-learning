@@ -1,4 +1,4 @@
 const math = require('./math');
+const sc = require('./string-concat');
 
-console.log(`Sum from main app module ${math.add(2, 7)}`);
-console.log(`Difference from main app module ${math.sub(2, 7)}`);
+console.log(sc.add(`Sum from main app module ${math.add(2, 7)}`, `Difference from main app module ${math.sub(2, 7)}`));
