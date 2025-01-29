@@ -12,5 +12,4 @@ class Animal {
     }
 }
 
-// exports.animal = Animal;
-exports.animal = new Animal('Elephant');
+exports.animal = Animal;
