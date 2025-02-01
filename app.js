@@ -12,3 +12,6 @@ console.log(cow.getName()); // Parrot
 Animal = require('./Animal').animal;
 const tiger = new Animal('Tiger');
 console.log(tiger.getName()); // Tiger
+
+console.log(math.isResultEvenOrOdd(math.add, 3, 4));
+console.log(math.isResultEvenOrOdd(math.add, 6, 6));
